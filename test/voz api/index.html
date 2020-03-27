@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>tesstssss</title>
+        <meta charset="UTF-8">
+        <style>
+            .output{
+                display: block;
+                width: 80%;
+                height: 300px;
+                margin: 50px auto;
+                
+            }
+        </style>
+        
+    </head>
+    <body>
+        <button class="btn-start">Grabar motivo</button>
+        <button class="btn-end">Parar la grabacion</button>
+        <script src="app.js"></script>
+        <br>
+        <textarea placeholder="OJALA FUNCIONE" class="output"></textarea>
+
+        <!-- <div class="words" contenteditable>
+            <p id="p"></p>
+        </div>
+
+        <script>
+            var speech = true;
+            window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = new SpeechRecognition();
+            recognition.interimResults=true;
+            const words= document.querySelector('.words');
+            words.appendChild(p);
+            recognition.addEventListener('result', e => {
+                const transcript = Array.from(e.results)
+                .map(result => result[0])
+                .map(result => result.transcript)
+                .join('')
+
+                document.getElementById("p").innerHTML=transcript;
+                console.log(transcript);
+            });
+
+            if(speech == true){
+                recognition.start();
+                recognition.addEventListener('end',recognition.start)
+            }
+
+        </script> -->
+    </body>
+</html>
